@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/skywing">
+
+     <TextView
+         android:id="@+id/tvheader"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:maxLines="1"
+         android:text="Please wait ..."
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#007000"
+         android:textStyle="bold" />
+
+<HorizontalScrollView
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"> >
+<ScrollView 
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+      android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvschedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
+</ScrollView>
+</HorizontalScrollView>
+</LinearLayout>
